@@ -1,0 +1,15 @@
+
+
+/* Fundo de toda a pagina */
+body {
+    background-color: #f4f6f9; /* Um cinza muito clarinho */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu do topo */
+.menu-personalizado {
+    background-color: #0d6efd; /* Azul padrao */
+    padding: 15px; /* Espaco interno para nao ficar espremido */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+}
