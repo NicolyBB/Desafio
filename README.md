@@ -4,12 +4,7 @@
 </a>
 </p>
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/PHP-8.2%252B-777BB4%3Fstyle%3Dfor-the-badge%26logo%3Dphp%26logoColor%3Dwhite" alt="PHP Version">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Laravel-12-FF2D20%3Fstyle%3Dfor-the-badge%26logo%3Dlaravel%26logoColor%3Dwhite" alt="Laravel 12">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Bootstrap-5-7952B3%3Fstyle%3Dfor-the-badge%26logo%3Dbootstrap%26logoColor%3Dwhite" alt="Bootstrap 5">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/MySQL-Database-4479A1%3Fstyle%3Dfor-the-badge%26logo%3Dmysql%26logoColor%3Dwhite" alt="MySQL">
-</p>
+
 
 <h1 align="center">Desafio - Cadastro de Clientes</h1>
 
