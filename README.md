@@ -55,43 +55,33 @@ Um servidor de banco de dados (MySQL/MariaDB) ou ambiente como Laravel Herd / XA
 
 2. Instalação Passo a Passo
 
-Clone este repositório para a sua máquina:
+Abra o seu terminal e execute os comandos abaixo:
 
+# 1. Clone este repositório
 git clone [https://github.com/NicolyBB/desafio.git](https://github.com/NicolyBB/desafio.git)
 
-
-Aceda à pasta do projeto:
-
+# 2. Aceda à pasta do projeto
 cd desafio
 
-
-Instale as dependências do Laravel via Composer:
-
+# 3. Instale as dependências do Laravel
 composer install
 
-
-Crie o ficheiro de ambiente copiando o ficheiro de exemplo:
-
+# 4. Crie o ficheiro de configuração (No Windows pode usar: copy .env.example .env)
 cp .env.example .env
 
-
-(No Windows, pode usar copy .env.example .env ou apenas duplicar o ficheiro manualmente e renomeá-lo para .env).
-
-Gere a chave de segurança da aplicação:
-
+# 5. Gere a chave de segurança da aplicação
 php artisan key:generate
 
 
-Configure o Banco de Dados:
-Abra o ficheiro .env recém-criado e ajuste as credenciais de ligação ao banco de dados (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+⚠️ Pausa para o Banco de Dados:
+Neste momento, abra o ficheiro .env recém-criado na raiz do projeto e ajuste as credenciais de ligação ao seu banco de dados local (campos DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 
-Execute as Migrations para criar a tabela de clientes:
+Após configurar o .env, volte ao terminal e continue:
 
+# 6. Execute as Migrations para criar a tabela de clientes
 php artisan migrate
 
-
-Inicie o servidor local:
-
+# 7. Inicie o servidor local
 php artisan serve
 
 
